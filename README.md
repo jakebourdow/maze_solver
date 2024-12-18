@@ -1,2 +1,2 @@
 # maze_solver
-Python project from boot.dev to randomly generate and solve mazes.
+Python project from boot.dev to generate and solve mazes.
