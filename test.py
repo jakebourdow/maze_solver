@@ -63,6 +63,7 @@ class Tests(unittest.TestCase):
                     cell.visited,
                     False,
                 )
+    ## TODO write test to confirm edges are all there and star/finish exists
 
 if __name__ == "__main__":
     unittest.main()
