@@ -55,5 +55,14 @@ class Tests(unittest.TestCase):
             False
         )
 
+    def test_reset_cells_visited(self):
+        m = Maze(0, 0, 12, 16, 10, 10)
+        for col in m._cells:
+            for cell in col:
+                self.assertEqual(
+                    cell.visited,
+                    False,
+                )
+
 if __name__ == "__main__":
     unittest.main()
